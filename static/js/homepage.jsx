@@ -4,7 +4,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hooray! Welcome to Balloonicorn's Website!</h1>
+        <p> Hooray! Welcome to Balloonicorn's Website!</p>
         <a href= "/cards"> View Cards here </a>
         <img href="/static/img/balloonicorn.jpg"/>
       </div>
@@ -12,4 +12,4 @@ class Homepage extends React.Component {
   }
 }
 
-ReactDOM.render(<Homepage />, document.getElementbyID('app'));
+ReactDOM.render(<Homepage />, document.querySelector('#app'));
