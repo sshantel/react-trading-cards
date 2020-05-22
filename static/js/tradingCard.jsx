@@ -44,3 +44,36 @@ ReactDOM.render(
   ),
   document.querySelector('#llambda')
 );
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="seedpy"
+      skill="cooking"
+      imgUrl="/static/img/seedpy.jpg"
+    />
+  ),
+  document.querySelector('#seedpy')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="merge"
+      skill="driving"
+      imgUrl="/static/img/merge.jpg"
+    />
+  ),
+  document.querySelector('#merge')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="polymorphism"
+      skill="going to class"
+      imgUrl="/static/img/polymorphism.jpg"
+    />
+  ),
+  document.querySelector('#polymorphism')
+);
